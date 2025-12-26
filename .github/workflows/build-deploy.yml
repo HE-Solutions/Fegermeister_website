@@ -33,6 +33,12 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          # This is "" for user/organization pages, and "/<repo>" for project pages
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
+      - name: Disable Jekyll
+        run: touch out/.nojekyll
 
       # Upload the static site output from the "out" folder
       - name: Upload Pages artifact
