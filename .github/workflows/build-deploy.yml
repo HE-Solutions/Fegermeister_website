@@ -31,9 +31,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Debug base_path
+      - name: Set base path (project pages)
         run: |
-          echo "configure-pages base_path='${{ steps.pages.outputs.base_path }}'"
+          echo "NEXT_PUBLIC_BASE_PATH=/${{ github.event.repository.name }}" >> $GITHUB_ENV
+          echo "NEXT_PUBLIC_BASE_PATH is set to '$NEXT_PUBLIC_BASE_PATH'"
+
 
       - name: Build
         run: npm run build
