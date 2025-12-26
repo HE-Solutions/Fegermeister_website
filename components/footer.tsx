@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <img
-                src="/images/fegermeister_logo_transparent.png"
+                src="images/fegermeister_logo_transparent.png"
                 alt="Fegermeister"
                 className="h-10 w-auto invert"
               />
@@ -18,7 +19,7 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-3 bg-white/10 px-4 py-2 rounded-full w-fit">
               <img
-                src="/images/schornsteinfeger-logo.png"
+                src="images/schornsteinfeger-logo.png"
                 alt="Schornsteinfeger Innung"
                 className="w-8 h-8 rounded-full"
               />

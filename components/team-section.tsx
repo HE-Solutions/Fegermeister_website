@@ -77,7 +77,7 @@ export function TeamSection() {
                             <div
                                 className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl ring-1 ring-innung-red/10">
                                 <img
-                                    src="/josua_koelbel.jpg"
+                                    src="josua_koelbel.jpg"
                                     alt="Josua Kölbel"
                                     className="w-full h-full object-cover"
                                 />

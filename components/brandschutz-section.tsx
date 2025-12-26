@@ -48,7 +48,7 @@ export function BrandschutzSection() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl ring-1 ring-innung-red/10">
               <img
-                src="/chimney-sweep-inspecting-fireplace-safety-professi.jpg"
+                src="chimney-sweep-inspecting-fireplace-safety-professi.jpg"
                 alt="Schornsteinfeger bei der Brandsicherheitsprüfung"
                 className="w-full h-full object-cover"
               />

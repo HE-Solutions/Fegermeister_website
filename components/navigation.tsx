@@ -52,7 +52,7 @@ export function Navigation() {
             }}
           >
             <img
-              src="/images/fegermeister_logo_transparent.png"
+              src="images/fegermeister_logo_transparent.png"
               alt="Fegermeister Logo"
               className="h-10 md:h-12 w-auto invert"
             />

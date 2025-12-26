@@ -39,7 +39,7 @@ export function HeroSection() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center gap-8">
             <img
-              src="/images/fegermeister_logo_transparent.png"
+              src="images/fegermeister_logo_transparent.png"
               alt="Fegermeister"
               className="w-72 md:w-[700px] h-auto invert"
             />
