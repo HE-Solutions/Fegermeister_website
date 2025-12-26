@@ -45,13 +45,12 @@ export function HeroSection() {
             />
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight text-balance">
-              Ihr Meisterbetrieb für
+              Meisterbetrieb für
               <span className="block mt-2 text-primary-foreground">Sicherheit & Vertrauen</span>
             </h1>
 
             <p className="text-lg md:text-xl text-primary-foreground/70 max-w-2xl text-pretty leading-relaxed">
-              Tradition trifft Moderne – Ihr zuverlässiger Partner für Brandschutz, Sicherheit, Beratung und
-              Umweltschutz.
+              Ihr zuverlässiger Partner für Brandschutz, Sicherheit, Beratung und Umweltschutz.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 w-full max-w-4xl mt-4">
@@ -69,7 +68,7 @@ export function HeroSection() {
 
             <Button
               size="lg"
-              className="bg-innung-red text-white hover:bg-innung-red/90 text-lg px-8 py-6 rounded-full shadow-lg shadow-innung-red/25 transition-all hover:scale-105 mt-4"
+              className="bg-innung-red text-white hover:bg-innung-red/90 text-lg px-8 py-6 rounded-full shadow-lg shadow-innung-red/25 transition-all hover:scale-105 mt-4 md:gap-4"
               asChild
             >
               <a href="#kontakt">
@@ -77,6 +76,8 @@ export function HeroSection() {
                 Jetzt Termin vereinbaren
               </a>
             </Button>
+
+            <p className="text-lg md:text-xl text-primary-foreground/70 max-w-2xl text-pretty leading-relaxed"></p>
           </div>
         </div>
       </div>

@@ -54,8 +54,8 @@ export function BrandschutzSection() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-innung-red text-white p-6 rounded-2xl shadow-xl shadow-innung-red/25 hidden md:block">
-              <p className="text-4xl font-bold">30+</p>
-              <p className="text-sm text-white/80">Jahre Erfahrung</p>
+              <p className="text-4xl font-bold">soll hier</p>
+              <p className="text-sm text-white/80">was stehen?</p>
             </div>
           </div>
         </div>
