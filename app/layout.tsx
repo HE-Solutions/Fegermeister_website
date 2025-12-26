@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     "Energieberatung",
   ],
   icons: {
-    icon: "images/schornsteinfeger-logo.jpg",
-    apple: "images/schornsteinfeger-logo.jpg",
+    icon: "images/schornsteinfeger-logo.png",
+    apple: "images/schornsteinfeger-logo-apple.png",
   },
 }
 
