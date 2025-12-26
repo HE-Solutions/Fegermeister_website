@@ -15,18 +15,6 @@ const contactInfo = [
     value: "info@fegermeister.de",
     href: "mailto:info@fegermeister.de",
   },
-  {
-    icon: MapPin,
-    label: "Adresse",
-    value: "Musterstraße 12, 12345 Musterstadt",
-    href: "https://maps.google.com",
-  },
-  {
-    icon: Clock,
-    label: "Öffnungszeiten",
-    value: "Mo-Fr: 7:00 - 17:00 Uhr",
-    href: null,
-  },
 ]
 
 export function ContactSection() {
