@@ -18,10 +18,10 @@
   --muted: oklch(0.93 0.005 250);
   --muted-foreground: oklch(0.45 0.01 250);
   /* Innung Colors */
-  --innung-red: oklch(0.55 0.22 25);
-  --innung-yellow: oklch(0.85 0.18 85);
-  --innung-blue: oklch(0.55 0.18 240);
-  --innung-green: oklch(0.55 0.18 145);
+  --innung-red: oklch(0.66 0.229 16.85);
+  --innung-yellow: oklch(0.877 0.163 90.643);
+  --innung-blue: oklch(0.761 0.135 241.623);
+  --innung-green: oklch(0.696 0.165 148.263);
   --accent: oklch(0.55 0.22 25);
   --accent-foreground: oklch(0.98 0 0);
   --destructive: oklch(0.55 0.22 25);
