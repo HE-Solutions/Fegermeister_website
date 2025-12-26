@@ -31,10 +31,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug base_path
+        run: |
+          echo "configure-pages base_path='${{ steps.pages.outputs.base_path }}'"
+
       - name: Build
         run: npm run build
         env:
-          # This is "" for user/organization pages, and "/<repo>" for project pages
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - name: Disable Jekyll
