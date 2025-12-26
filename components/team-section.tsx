@@ -1,16 +1,16 @@
 import {Card, CardContent} from "@/components/ui/card"
-import {CheckCircle, DownloadIcon, Flame, Users} from "lucide-react"
+import { DownloadIcon, Users} from "lucide-react"
 
 const newspaperArticles = [
     {
         name: "HNA: Meisterbetrieb hat neuen Gesellen",
         link: "https://www.hna.de/lokales/wolfhagen/zierenberg-ort78080/zierenberger-meisterbetrieb-hat-neuen-gesellen-und-bezirksschornsteinfeger-93215595.html",
-        pdf_link: "/newspaper/meisterbetrieb_hat_neuen_gesellen.pdf"
+        pdf_link: "newspaper/meisterbetrieb_hat_neuen_gesellen.pdf"
     },
     {
         name: "Test: Test",
         link: "about:blank",
-        pdf_link: "/newspaper/meisterbetrieb_hat_neuen_gesellen.pdf"
+        pdf_link: "newspaper/meisterbetrieb_hat_neuen_gesellen.pdf"
     }
 ];
 
@@ -18,19 +18,19 @@ const teamMembers = [
   {
     name: "Anna Schmidt",
     role: "Energieberaterin",
-    image: "/professional-woman-energy-consultant-portrait-frie.jpg",
+    image: "professional-woman-energy-consultant-portrait-frie.jpg",
     description: "Zertifizierte Energieberaterin mit Schwerpunkt auf nachhaltige Heizsysteme und Fördermittelberatung.",
   },
   {
     name: "Michael Weber",
     role: "Schornsteinfegergeselle",
-    image: "/young-professional-craftsman-portrait-german-frien.jpg",
+    image: "young-professional-craftsman-portrait-german-frien.jpg",
     description: "Spezialist für Feuerstättenprüfung und moderne Heizsysteme. Seit 8 Jahren im Team.",
   },
   {
     name: "Lisa Braun",
     role: "Büroorganisation",
-    image: "/professional-woman-office-administrator-portrait-f.jpg",
+    image: "professional-woman-office-administrator-portrait-f.jpg",
     description: "Ihre erste Ansprechpartnerin für Terminvereinbarungen und alle administrativen Fragen.",
   }
 ]
