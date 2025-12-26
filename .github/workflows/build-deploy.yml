@@ -31,8 +31,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug base_path
+        run: |
+          echo "configure-pages base_path='${{ steps.pages.outputs.base_path }}'"
+
       - name: Build
         run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
+      - name: Disable Jekyll
+        run: touch out/.nojekyll
 
       # Upload the static site output from the "out" folder
       - name: Upload Pages artifact
