@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "Fegermeister | Ihr Schornsteinfeger-Meisterbetrieb",
   description:
     "Fegermeister - Ihr professioneller Schornsteinfegerbetrieb für Privat- und Gewerbekunden. Brandsicherheit, Feuerstättenprüfung, Energieberatung und Umweltschutz.",
-  generator: "v0.app",
   keywords: [
     "Fegermeister",
     "Schornsteinfeger",
@@ -21,8 +20,8 @@ export const metadata: Metadata = {
     "Energieberatung",
   ],
   icons: {
-    icon: "/images/schornsteinfeger-logo.jpg",
-    apple: "/images/schornsteinfeger-logo.jpg",
+    icon: "images/schornsteinfeger-logo.jpg",
+    apple: "images/schornsteinfeger-logo.jpg",
   },
 }
 
