@@ -8,11 +8,12 @@ const _spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Fegermeister | Ihr Schornsteinfeger-Meisterbetrieb",
+  title: "Kölbel Kehr GmbH | Ihr Schornsteinfeger-Meisterbetrieb",
   description:
-    "Fegermeister - Ihr professioneller Schornsteinfegerbetrieb für Privat- und Gewerbekunden. Brandsicherheit, Feuerstättenprüfung, Energieberatung und Umweltschutz.",
+    "Kölbel Kehr GmbH - Ihr professioneller Schornsteinfegerbetrieb für Privat- und Gewerbekunden. Brandsicherheit, Feuerstättenprüfung, Energieberatung und Umweltschutz.",
   keywords: [
-    "Fegermeister",
+    "Kölbel Kehr GmbH",
+    "Kölbel Kehr",
     "Schornsteinfeger",
     "Kaminkehrer",
     "Brandsicherheit",

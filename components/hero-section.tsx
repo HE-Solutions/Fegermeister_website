@@ -40,7 +40,7 @@ export function HeroSection() {
           <div className="flex flex-col items-center text-center gap-8">
             <img
               src="images/koelbelkehr.png"
-              alt="Fegermeister"
+              alt="Kölbel Kehr GmbH"
               className="w-55 md:w-[350px] h-auto invert"
             />
 

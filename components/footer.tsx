@@ -10,7 +10,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-6">
               <img
                 src="images/koelbelkehr.png"
-                alt="Fegermeister"
+                alt="Kölbel Kehr GmbH"
                 className="h-25 w-auto invert"
               />
             </div>
@@ -77,7 +77,7 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/10 pt-8 text-center">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Fegermeister. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} Kölbel Kehr GmbH. Alle Rechte vorbehalten.
           </p>
         </div>
       </div>

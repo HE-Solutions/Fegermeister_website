@@ -53,7 +53,7 @@ export function Navigation() {
           >
             <img
               src="images/koelbelkehr.png"
-              alt="Fegermeister Logo"
+              alt="Kölbel Kehr Logo"
               className="h-12 md:h-14 w-auto invert"
             />
           </a>
