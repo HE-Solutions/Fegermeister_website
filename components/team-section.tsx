@@ -45,7 +45,7 @@ export function TeamSection() {
                         <Users className="h-4 w-4"/>
                         Unser Team
                     </div>
-                    <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Das Fegermeister Team</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Das Kölbel Kehr Team</h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto text-lg text-pretty">
                         Lernen Sie die Menschen kennen, die für Ihre Sicherheit und Ihren Komfort arbeiten.
                     </p>

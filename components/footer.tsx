@@ -9,9 +9,9 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <img
-                src="images/fegermeister_logo_transparent.png"
+                src="images/koelbelkehr.png"
                 alt="Fegermeister"
-                className="h-10 w-auto invert"
+                className="h-25 w-auto invert"
               />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
@@ -21,7 +21,7 @@ export function Footer() {
               <img
                 src="images/schornsteinfeger-logo.png"
                 alt="Schornsteinfeger Innung"
-                className="w-8 h-8 rounded-full"
+                className="w-10 h-10 rounded-full"
               />
               <span className="text-primary-foreground/70 text-xs">Innungsbetrieb</span>
             </div>

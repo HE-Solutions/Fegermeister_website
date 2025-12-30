@@ -52,9 +52,9 @@ export function Navigation() {
             }}
           >
             <img
-              src="images/fegermeister_logo_transparent.png"
+              src="images/koelbelkehr.png"
               alt="Fegermeister Logo"
-              className="h-10 md:h-12 w-auto invert"
+              className="h-12 md:h-14 w-auto invert"
             />
           </a>
 

@@ -39,9 +39,9 @@ export function HeroSection() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center gap-8">
             <img
-              src="images/fegermeister_logo_transparent.png"
+              src="images/koelbelkehr.png"
               alt="Fegermeister"
-              className="w-72 md:w-[700px] h-auto invert"
+              className="w-55 md:w-[350px] h-auto invert"
             />
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight text-balance">
